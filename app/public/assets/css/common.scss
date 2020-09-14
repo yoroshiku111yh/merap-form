@@ -1,0 +1,37 @@
+.content__game {
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.dropdown {
+    &__item {
+        &__txt {
+            line-height: 40px;
+            height: 40px;
+        }
+    }
+    &__box {
+        overflow-y: hidden;
+        line-height: 40px;
+        height: 40px;
+        &.active {
+            overflow-y: scroll;
+            height: auto;
+            max-height: 205px;
+        }
+        &__arrow{
+            &.active{
+                opacity: 0;
+            }
+        }
+    }
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.error__message{
+    transition: all cubic-bezier(0.645, 0.045, 0.355, 1) 0.3s;
+    height : 20px;
+}
