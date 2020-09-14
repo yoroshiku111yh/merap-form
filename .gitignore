@@ -6,8 +6,6 @@
 .pnp.js
 
 # testing
-__mocks__
-__tests__
 
 # next.js
 /.next/
