@@ -6,7 +6,8 @@
 .pnp.js
 
 # testing
-/coverage
+/__mocks__
+/__tests__
 
 # next.js
 /.next/
